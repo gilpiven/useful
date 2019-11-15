@@ -1,0 +1,7 @@
+###
+ Useful app for linux. Created by Gil Piven.
+###
+
+# Daily wallpers, many configurations. Install from the app store: Variety
+More info:
+https://peterlevi.com/variety/
