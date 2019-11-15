@@ -19,9 +19,27 @@ sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --
 
 #**You can also add the option --dry-run to simulate the backup process.
 
-#The command to restore the system:
+#Restorign the system:
+
+1. Boot from live linux ISO.
+2. Mount the backup/USB drive.
+
+mkdir /mnt/system /mnt/usb
+
+3. Check the name of the devices.
+
+lsblk
+
+4. Mount the usb and the system drives. Change these accordingly to your drives.
+
+mount /dev/sda1 /mnt/system
+mount /dev/sdb1 /mnt/usb
+
+5. Restore the backup.
 
 sudo rsync -aAXv --delete --exclude="lost+found" /backup /system
+
+6. Restore the swap file.
 
 #To see more options run:
 
