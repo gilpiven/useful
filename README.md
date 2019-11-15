@@ -1,1 +1,1 @@
-# Useful programming stuff.
+# Useful linux stuff.
