@@ -2,12 +2,14 @@
  Useful commands for linux. Created by Gil Piven.
 ###
 
-
 # running processes
 ps -aux
 
 # system resources, processes, cpu/memory use
 htop
+
+
+
 
 
 ## Backup & restore ##
@@ -19,7 +21,9 @@ sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --
 
 #**You can also add the option --dry-run to simulate the backup process.
 
-#Restorign the system:
+
+
+#Restoring the system:
 
 1. Boot from live linux ISO.
 2. Mount the backup/USB drive.
