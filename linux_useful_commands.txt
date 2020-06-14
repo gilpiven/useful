@@ -32,6 +32,20 @@ find -name "MyCProgram.c" - find the filename
 find -iname "MyCProgram.c"- find the filename, case insensitive
 
 
+# sed - replacing text using regex(see online tutorial for usage).
+
+# awk - print specific parts of a text file.
+
+# sort - print the sorted content of a file.
+
+sort names.txt
+
+# export - export command marks an environment variable to be exported with any newly forked child processes and thus it allows a child process to inherit all marked variables.
+
+# xargs - build and execute command lines from standard input
+
+# crontab - schedule a routine background job at a specific time and/or day on an on-going basis.
+
 ## Backup & restore ##
 #Backup your whole Linux system and how to restore it back if something bad happens to it.
 
